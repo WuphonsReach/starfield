@@ -98,7 +98,7 @@ The materials list includes all possible options, plus alternates. See [starfiel
 
 ### Materials
 
-A semi-comprehensive list of all the materials which you will need to build out outposts with a minimum of decoration, cargo links, beds, etc.  The more you decorate or build the more that you will need.  Or if you go barebone you will need less.
+A semi-comprehensive list of all the materials which you will need to build your outposts with a minimum of decoration, cargo links, beds, etc.  The more you decorate or build the more that you will need.  Or if you go barebone you will need less.
 
 The goal of this section is to get a feel for what materials you will need in high or low volumes.
 
