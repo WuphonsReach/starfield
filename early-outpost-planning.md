@@ -163,7 +163,7 @@ A count of the number of bodies with Temperate/Hot/Cold climates in the Level 1 
 - Cheyenne (L1) / Codos: `[Al] [Be] [Fe]`
 - Bessel (L5) / Bessel III-b: `[Al] [Fe] [Ni]`
 - Narion (L1) / Sumati: `[Cu] [Pb]`
-- Narion (L1) / Niira: `[Cu] [Ni]`
+- Narion (L1) / Niira: `[Cu] [Ni]` (poisoning rain)
 - Sirius (L5) / Sirius III-a: `[Al] [Cu]`
 - Volii (L5) / Volii Epsilon: `[Cu] [Pb]`
 
