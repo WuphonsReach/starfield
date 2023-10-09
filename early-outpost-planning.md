@@ -85,7 +85,7 @@ The materials list includes all possible options, plus alternates. See [starfiel
 - (4) Lubricant
 - (4) Membrane 
 - (7) Sealant
-- (4) Structural
+- (4) Structural Material
 
 ### Components
 
@@ -164,8 +164,8 @@ A count of the number of bodies with Temperate/Hot/Cold climates in the Level 1 
 | -------------- | --------- | ----- | -------- | --------------------------------------------- | -------------- |
 | Alpha Centauri | Gagarin   | 1     | 0.5      | `[Cl] [H2O] [Pb] [SiH3Cl]`                    | Flora/Fauna    |
 | Alpha Centauri | Jemison   | 1     | 2.1      | `[???]`                                       | Flora/Fauna    |
-| Alpha Centauri | Kurtz     | 1     | 13.4     | `[Al] [HE3]`                                  | Orbits Jemison |
-| Alpha Centauri | Zamka     | 1     | 2.1      | `[Co] [Cu] [Fe] [H2O] [HE3] [Ni] [U] [V]`     | Frostbite Rain |
+| Alpha Centauri | Kurtz     | 1     | 13.4     | `[Al/HE3]`                                  | Orbits Jemison |
+| Alpha Centauri | Zamka     | 1     | 2.1      | `[Co/Ni] [Cu] [Fe] [H2O] [HE3] [U] [V]`     | Frostbite Rain |
 | Cheyenne       | Codos     | 1     | ?        | `[Al] [Be] [Fe]`                              |                |
 | Narion         | Andraphon | 1     | ?        | `[Al] [Be] [Eu] [Fe] [He3]`                   |                |
 | Narion         | Kreet     | 1     | 1.0      | `[Ag] [Ar] [Fe] [H2O] [He3] [HnCn] [Ne] [Pb]` | Flora/Fauna    |
