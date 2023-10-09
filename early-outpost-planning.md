@@ -9,7 +9,7 @@
     - [Cargo Links / Ship Pads](#cargo-links--ship-pads)
     - [Habitation](#habitation)
   - [Materials](#materials)
-    - [Ores](#ores)
+    - [Extracted Solids](#extracted-solids)
     - [Gases](#gases)
     - [Flora/Fauna](#florafauna)
     - [Components](#components)
@@ -65,19 +65,19 @@ You can cut this in half if you only need (3) instead of (6) extractors to start
 
 The materials list includes all possible options, plus alternates. See [starfieldresourcecalculator.com](https://www.starfieldresourcecalculator.com/) if you want to do the calculations yourself.
 
-### Ores
+### Extracted Solids
 
-- (130) `[Al]` Aluminum
-- (18) `[Be]` Beryllium
-- (39) `[Cu]` Copper
-- (105) `[Fe]` Iron
-- (8) `[Pb]` Lead
-- (13) `[Ni]` Nickel
-- (21) `[W]` Tungsten
+- (130) Aluminum `[Al]`
+- (18) Beryllium `[Be]`
+- (39) Copper `[Cu]`
+- (105) Iron `[Fe]`
+- (8) Lead `[Pb]`
+- (13) Nickel `[Ni]`
+- (21) Tungsten `[W]`
 
 ### Gases
 
-- (3) `[C6Hn]` Benzene
+- (3) Benzene `[C6Hn]`
 
 ### Flora/Fauna
 
@@ -106,32 +106,32 @@ The goal of this section is to get a feel for what materials you will need in hi
 
 These are the materials for which you will want a few thousand units. At least 1000 and maybe up to 3000 units.  You will definitely want to setup an extraction outpost to harvest these.
 
-- `[Al]` Aluminum
-- `[Fe]` Iron
+- Aluminum `[Al]`
+- Iron `[Fe]`
 
 ## 2nd Tier Raw Materials
 
 Think "hundreds" of units in the 250-500 range.  Still worth harvesting in an automated fashion via outposts.
 
-- `[Be]` Beryllium
-- `[Cu]` Copper
-- `[Pb]` Lead
-- `[Ni]` Nickel
+- Beryllium `[Be]`
+- Copper `[Cu]`
+- Lead `[Pb]` (commonly found near Silver `[Ag]`)
+- Nickel `[Ni]`
 - Sealant (flora/fauna)
 - Structural (flora/fauna)
-- `[W]` Tungsten
+- Tungsten `[W]`
 
 ## 3rd Tier Raw Materials
 
 Think "dozens" of units for outpost construction.  For a lot of these you'll need under 100 units with a few needing up to 200 units.
 
 - Adhesive (flora/fauna)
-- `[HnCn]` Alkanes
-- `[C6Hn]` Benzene
-- `[Cl]` Chlorine
+- Alkanes `[HnCn]` (near Iron `[Fe]`)
+- Benzene `[C6Hn]`
+- Chlorine `[Cl]`
 - Cosmetic (flora/fauna)
 - Fiber (flora/fauna)
-- `[F]` Flourine
+- Flourine `[F]`
 - Lubricant (flora/fauna)
 - Membrane (flora/fauna)
 - Pigment (flora/fauna)
@@ -160,13 +160,18 @@ A count of the number of bodies with Temperate/Hot/Cold climates in the Level 1 
 
 ## Planets/Moons
 
-| System | Body | Level | UT Ratio | Resources | Notes |
-|-|-|-|-|-|-|
-| Alpha Centauri | Kurtz | 1 | 13.4 | `[Al] [HE3]` | Temperate, Orbits Jemison |
-| Cheyenne | Codos | 1 | ? | `[Al] [Be] [Fe]` | |
-| Narion | Sumati | 1 | ? | `[Cu] [Pb]` | |
-| Narion | Niira | 1 | ? | `[Cu] [Ni]` | Poisoning Rain |
-| Bessel | III-b | 5 | ? | `[Al] [Fe] [Ni]` | Anomaly POIs |
-| Sirius | III-a | 5 | ? | `[Al] [Cu]` | |
-| Volii | Epsilon | 5 | ? | `[Cu] [Pb]` | | 
+| System         | Body      | Level | UT Ratio | Resources                                     | Notes          |
+| -------------- | --------- | ----- | -------- | --------------------------------------------- | -------------- |
+| Alpha Centauri | Gagarin   | 1     | 0.5      | `[Cl] [H2O] [Pb] [SiH3Cl]`                    | Flora/Fauna    |
+| Alpha Centauri | Jemison   | 1     | 2.1      | `[???]`                                       | Flora/Fauna    |
+| Alpha Centauri | Kurtz     | 1     | 13.4     | `[Al] [HE3]`                                  | Orbits Jemison |
+| Alpha Centauri | Zamka     | 1     | 2.1      | `[Co] [Cu] [Fe] [H2O] [HE3] [Ni] [U] [V]`     | Frostbite Rain |
+| Cheyenne       | Codos     | 1     | ?        | `[Al] [Be] [Fe]`                              |                |
+| Narion         | Andraphon | 1     | ?        | `[Al] [Be] [Eu] [Fe] [He3]`                   |                |
+| Narion         | Kreet     | 1     | 1.0      | `[Ag] [Ar] [Fe] [H2O] [He3] [HnCn] [Ne] [Pb]` | Flora/Fauna    |
+| Narion         | Niira     | 1     | ?        | `[Cu] [Ni]`                                   | Poisoning Rain |
+| Narion         | Sumati    | 1     | ?        | `[Cu] [Pb]`                                   |                |
+| Bessel         | III-b     | 5     | ?        | `[Al] [Fe] [Ni]`                              | Anomaly POIs   |
+| Sirius         | III-a     | 5     | ?        | `[Al] [Cu]`                                   |                |
+| Volii          | Epsilon   | 5     | ?        | `[Cu] [Pb]`                                   |                |
 
