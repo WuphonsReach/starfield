@@ -1,0 +1,39 @@
+
+; ENV_AFFL_Symo_Asphyxation_ReduceOxygen_Percentage (default 0.5)
+set 0003814F to 0.85
+; ENV_AFFL_Symp_Bleeding_DamageHealth_MeleeAttacking ( default 3.0 )
+set 000385C8 to 3.5
+; ENV_AFFL_Symp_Bleeding_DamageHealth_Sprinting ( default 1.5 )
+set 0003835D to 2.0
+; ENV_AFFL_DamagePlayerHealthThresholdPercentage ( default 0.2 )
+set 000385A0 to 0
+; ENV_AFFL_Symp_Blisters_ReducePlayerMeleDamageMult (default: 0.15)
+set 000385A2 to 0.35
+; ENV_AFFL_Symp_DifficultyBreathing_ReduceOxygenRateMult (default 50)
+set 000385B8 to 95
+; ENV_AFFL_Symp_IntensePain_IncreasePlayerIncomingWeaponDamageMult (default: 0.1)
+set 000385B9 to 0.4
+; ENV_AFFL_Symp_Fever_IncreasePlayerOxygenUseMult (default: 0.3)
+set 000385BA to 0.7
+; ENV_AFFL_Symp_InternalBleeding (default: 0.15)
+set 000385BB to 0.3
+; ENV_AFFL_Symp_Nausea_ReducePlayerFoodMagnitudeMult (default: 0.25)
+set 000385BE to 0.8
+; ENV_AFFL_Symp_Pain_MinOxygenDamage (default: 1)
+set 000385C0 to 10
+; ENV_AFFL_Symp_Pain_MaxOxygenDamage (default: 25)
+set 000385C1 to 65
+; ENV_AFFL_Symp_Swelling_IncreasePlayerCarryEuippedWeightMult (default: 0.25)
+set 000385C4 to 0.35
+; ENV_AFFL_Symp_Unbalanced_ReduceAimStability (default: 0.5)
+set 000385C5 to 0.75
+; ENV_AFFL_Symp_Unbalanced_ReducePlayerMeleeDamageMult (default: 0.3)
+set 000385C6 to 0.45
+; ENV_AFFL_Symp_Weakness_ReduceCarryWeight_Percentage (default: 0.25)
+set 000385C7 to 0.50
+; ENV_AFFL_Symp_Cough_DamageOxygen (default: 25)
+set 000385B6 to 40
+; ENV_Affl_PeriodicEffect_Dur_OR_Interval_Cough_Min (default: 60)
+set 00303976 to 30
+; ENV_Affl_PeriodicEffect_Dur_InternalBleeding (default: 3)
+set 003039A5 to 5
