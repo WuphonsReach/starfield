@@ -1,0 +1,266 @@
+; ===== XP =====
+
+; 2.5x xp-604-1-0-1693787237
+; the vanilla value is 1, it's a multiplier
+setgs fXPModBase 1
+
+SetGS fSpeechChallengeSuccessXP 350
+
+SetGS fCookingExpMult 0.01
+SetGS fCookingExpBase 4
+SetGS fCookingExpMin 8
+SetGS fCookingExpMax 32
+
+; Muzzle Mods 1 gave ~200XP with 5/150/1250
+; fResearchExpMult = 0.1
+SetGS fResearchExpMult 5
+; fResearchExpBase = 1
+SetGS fResearchExpBase 150
+; fResearchExpMax = 200
+SetGS fResearchExpMax 1250
+
+; Adaptive Frame = 8 XP @ 0.05 / 3 / 6 / 36
+; fWorkbenchExperienceMult = 0.01
+SetGS fWorkbenchExperienceMult 0.1
+; fWorkbenchExperienceBase = 1
+SetGS fWorkbenchExperienceBase 3
+; fWorkbenchExperienceMin = 1
+SetGS fWorkbenchExperienceMin 7
+; fWorkbenchExperienceMax = 20
+SetGS fWorkbenchExperienceMax 40
+
+SetGS iXPRewardDiscoverMapMarker 90
+SetGS iXPRewardDiscoverSecretArea 200
+
+; Vanilla is 5/10/15/20 XP per difficulty level
+SetGS fLockpickXPRewardEasy 30
+SetGS fLockpickXPRewardAverage 60
+SetGS fLockpickXPRewardHard 180
+SetGS fLockpickXPRewardVeryHard 360
+
+; fXPStart (vanilla = 200): the starting XP required for each level
+; fXPBase (vanilla = 75): the base amount XP required increases by for each new level past 1 (eg, level 4 = 75*3)
+; fXPExpMult (vanilla = 0.0015): Modifies the XP increase such that higher levels increase along the lines 75, 75, 75, 75, 80, 80...
+setgs fXPExpMult 0.00025
+
+; ===== SNEAKING =====
+
+;Multiplier for sound related stealth, lower value = lower sound produced (vanilla = 1)
+setgs fSneakSoundsMult 0.80
+
+; Better out of LOS Sneaking-556-1-0-0-1693758476
+; Default is 0.4, lower decreases enemy hearing accuracy
+setgs fSneakSoundLosMult 0.25
+
+; Exterior modifier for sneaking, lower value = lower exterior NPC detection (vanilla = 1.25)
+; make enemies more perceptive in exterior areas, use this to balance exterior stealth difficulty
+setgs fSneakExteriorDistanceMult 1.1
+
+; NPC Detection View Cone, lower value = lower view cone (vanilla = 190)
+setgs fDetectionViewCone 150
+
+; Multiplier for how much equipment weight affects the sound made, lower value = lower sound produced based on equipment weight (vanilla 1)
+; it will make heavier gear a lot noisier when equipped, like space suit, backpack, helmet and heavy stuff
+setgs fSneakEquippedWeightMult 0.85
+
+; Multiplier for how much light affects stealth, lower value = easier to sneak if the area is lit (vanilla = 1)
+setgs fSneakLightMult 1
+
+; Sleeping NPC detection, lower value = less detection for sleeping NPCs (vanilla = 0)
+setgs fSneakSleepBonus -0.2
+
+; Multiplier for running while sneaking, lower value = lower impact of running (vanilla = 2)
+setgs fSneakRunningmult 1.8
+
+; This setting affects the minimum amount of Credits that an object is valued at in order for that object to be considered stolen.
+; Vanilla Setting: iCrimeStealDontCareValue 20
+SetGS iCrimeStealDontCareValue 250
+
+; ===== COMBAT =====
+
+; 5.715 - will react to dead bodies much farther away
+; 15 seems like around 25 or 30 meters distance in game
+setgs fDeadReactionDistance 15
+
+;Damage done by the player (sorted from Very Easy to Very Hard)
+; default is probably: (very easy) 2.0, (easy) 1.5, (normal) 1.0, (hard) 0.75, (very hard) 0.5
+setgs fDiffMultHPByPCVE 1.50
+setgs fDiffMultHPByPCE 1.25
+setgs fDiffMultHPByPCN 1.00
+setgs fDiffMultHPByPCH 0.95
+setgs fDiffMultHPByPCVH 0.90
+
+;Damage done to the player (sorted from Very Easy to Very Hard)
+; default is probably (very easy) 0.25-0.5, (easy) 0.5-0.75, (normal) 1.0, (hard) 1.5, (very hard) 2.0
+setgs fDiffMultHPToPCVE 0.6
+setgs fDiffMultHPToPCE 0.8
+setgs fDiffMultHPToPCN 1.00
+setgs fDiffMultHPToPCH 1.1
+setgs fDiffMultHPToPCVH 1.2
+
+; Less Spongy Enemies - 10 Health per Level-344-1-0-0-1693659098
+setgs fNPCHealthLevelBonus 5
+; Less Spongy Player - 10 Health per Level-1160-1-0-0-1694113264
+setgs fHealthEnduranceOffset 5
+
+; Increase Melee Damage (multiplier)
+player.modav meleedamage 2.5
+
+; A multiplier that determines how often hostile NPCs will react to being attacked
+; Vanilla = 1
+setgs fGetHitPainMult 2.5
+
+; This setting affects the frequency that hostile NPCs taunt you.
+; Vanilla Setting: setgs fCombatSpeakTauntChance 1
+setgs fCombatSpeakTauntChance 0.1
+
+; Default 5,5
+setgs fCombatDialogueAttackMinElapsedTime 10
+setgs fCombatDialogueAttackMaxElapsedTime 40
+; Default 15,30
+setgs fCombatDialogueTauntMinElapsedTime 30
+setgs fCombatDialogueTauntMaxElapsedTime 120
+; Default 0.25,1
+setgs fCombatDialogueTauntMinRetryTime 1
+setgs fCombatDialogueTauntMaxRetryTime 15
+
+;;This setting affects how long an NPC will spend in a suppressed state.
+;;Vanilla Setting: setgs fCombatCoverAttackerSuppressedTimeMax 10
+setgs fCombatCoverAttackerSuppressedTimeMax 18
+;;This setting affects the minimum set probability for an NPC to engage while behind cover.
+;;Vanilla Setting: setgs fCombatCoverAdvanceChanceMin 0.1
+setgs fCombatCoverAdvanceChanceMin 0.15
+;;This setting affects the median set probability for an NPC to engage while behind cover.
+;;Vanilla Setting: setgs fCombatCoverAdvanceChanceMid 0.5
+setgs fCombatCoverAdvanceChanceMid 0.60
+;;This setting affects the maximum set probability for an NPC to engage while behind cover.
+;;Vanilla Setting: setgs fCombatCoverAdvanceChanceMax 0.75
+setgs fCombatCoverAdvanceChanceMax 0.85
+;;This setting affects the set probability for an NPC to swap to another form of cover.
+;;Vanilla Setting: setgs fCombatCoverChangePositionChance 0.25
+setgs fCombatCoverChangePositionChance 0.30
+
+;;This setting affects the reduction of variance when an NPC is aiming.
+;;Vanilla Setting: setgs fCombatRangedGunAimVariance 0.9
+setgs fCombatRangedGunAimVariance 0.7
+;;This setting affects the base accuracy of an NPC.
+;;Vanilla Setting: setgs fCombatRangedGunAccuracyMinAccuracy 0.4
+setgs fCombatRangedGunAccuracyMinAccuracy 0.6
+;;This setting affects the set probability that an NPC will retreat.
+;;Vanilla Setting: setgs fCombatFallbackChanceMax 0.5
+setgs fCombatFallbackChanceMax 0.4
+;;This setting affects the set probability that an NPC will provide cover fire for their ally.
+;;Vanilla Setting: setgs fCombatProvideSuppressiveFireCoverScoreMult 0.25
+setgs fCombatProvideSuppressiveFireCoverScoreMult 0.4
+;;This setting affects the set probability that NPCs will attack together.
+;;Vanilla Setting: setgs fCombatCoverPairedRushChanceMin 0.25
+setgs fCombatCoverPairedRushChanceMin 0.35
+
+; =====
+
+; LowerRegistrationFee-953-1-0-1693970596
+; 1% = 0.01, 10% = 0.10 (default value 0.8410 or 84.1%)
+setgs fSpaceshipRegisterValueMult 0.10
+
+; NPC Greeting Distance Tweak-1470-bat-1694226087
+setgs fAIMinGreetingDistance 0.5
+
+; More Ownable Ships
+; Default is probably '10'
+SetGS uSpaceshipMaximumOwnedSpaceships 15
+
+; ===== VISUALS =====
+
+; Maximum and Minimum delay for character eye blinking (vanilla 5/3)
+setgs fBlinkDelayMax 7
+setgs fBlinkDelayMin 2
+
+; How long gun shells stay visible (vanilla 5)
+setgs fGunShellLifetime 600
+
+; Maximum amount of gun shells and other debris (vanilla 25)
+setgs iDebrisMaxCount 500
+
+; ===== GAMEPLAY =====
+
+; No XP Kill Steal Fix-1018-1-0-0-1694001137
+; 1% = 0.001 (or is it 0.1%?)
+setgs fXPDeathRewardHealthThreshold 0.001
+
+; Days that NPCs stay angry for commiting a crime (vanilla 3)
+setgs iAINumberDaysToStayAngryforCrime 14
+
+; Determines the speed of the sleep/wait menus (vanilla 1800)
+; A multiple of hours is a good choice (3600 or 7200)
+setgs iSecondsToSleepPerUpdate 3600
+
+; Chance that NPCs drop armor pieces (vanilla 0.1)
+setgs fEquippedArmorChanceToDrop 0.25
+
+; The delay when throwing a mine until it explodes(vanilla 0.2)
+setgs fMinesDelayMin 1.0
+
+; Increased Space Loot Distance-1013-1-0-1693997390
+SetGS fSpaceshipLootingDistanceDefault 1000.0
+
+; fVendorSellPriceMult, default 0.125
+setgs fVendorSellPriceMult 0.3
+
+; iHoursToRespawnCell 168 (vanilla) [1 week]
+; iHoursToRespawnCellCleared 480 (vanilla) [20 days]
+setgs iHoursToRespawnCell 340
+setgs iHoursToRespawnCellCleared 1560
+
+; the vanilla value is 30 for head tracking
+; Fantastic folks in the comments say that a values of 5 to 10 have worked for them for cutscenes and things
+setgs fAIMaxHeadTrackDistanceFromPC 15
+
+; Increase amount of sites on Planet. It works only on not yet discovered Planets.
+; Default is 10-30 and 5
+; Default gives ~3, 2x gives ~5, 3x gives ~7
+setgs "uPlanetContentMinWorldspaceRequestsPoints:PlanetContent" "15"
+setgs "uPlanetContentMaxWorldspaceRequestsPoints:PlanetContent" "75"
+setgs "fPlanetContentMaxNewWorldspacesPerScan:PlanetContent" "10"
+
+; POIs per site
+; Vanilla is: 1,3 and 4,5
+setgs "uPlanetContentMinRequestsPerCell:PlanetContent" "1"
+setgs "uPlanetContentMaxRequestsPerCell:PlanetContent" "2"
+setgs "uPlanetContentMinRequestsPerBlock:PlanetContent" "3"
+setgs "uPlanetContentMaxRequestsPerBlock:PlanetContent" "4"
+
+; Increased Starmap Zoom for More Precise Landings
+; The game's default value is 0.4. I picked 0.235 because it allows you to zoom closer but
+; not zoom inside the planet mesh, while allowing the POI markers to be small enough to fit
+; within a single resource pixel.
+setgs "fStarMapInspectCameraDistanceScaleZoomMin:StarMap" 0.235
+setgs "fStarMapInspectCameraDistanceScaleZoomMinMoon:StarMap" 0.235
+
+; ===== SCANNER
+
+; Increased scanner highlight distance
+; Default is 50
+SetGS fHandScannerBaseRange 125.0
+
+;This setting affects the base scanning range of the Hand Scanner.
+;Vanilla Setting: SetGS fHandScannerScanRange 10
+SetGS fHandScannerScanRange 15
+;This setting affects the multiplier you gain when using the Hand Scanner.
+;Vanilla Setting: SetGS fHandScannerScanRangeSkillMult 10
+SetGS fHandScannerScanRangeSkillMult 15
+
+; This setting affects how many animals of the same species you must to scan in order to fully scan that animal species.
+; Vanilla Setting: SetGS iHandScannerAnimalCountBase 8
+; The animal perk lowers the required amount by 1 scan per level, so don't go below 5.
+SetGS iHandScannerAnimalCountBase 5
+
+; This setting affects how many plants of the same species you must to scan in order to fully scan that plant species.
+; Vanilla Setting: SetGS iHandScannerPlantsCountBase 8
+; The botany perk lowers the required amount by 1 scan per level, so don't go below 5.
+SetGS iHandScannerPlantsCountBase 5
+
+; This setting affects the range that Map Markers are visible using the Hand Scanner.
+; Vanilla Setting: SetGS fHandScannerMapMarkerMinRange 1000
+; Values of 800 or below tend towards frustration.
+SetGS fHandScannerMapMarkerMinRange 1000
+
