@@ -1,0 +1,137 @@
+; ===== Nether's Vendor Credit Variety =====
+
+; restaurant/dive 1200
+revertleveledlist 2e98b
+addformtoleveledlist 2e98b f 1 3600
+addformtoleveledlist 2e98b f 1 3600
+addformtoleveledlist 2e98b f 1 3600
+addformtoleveledlist 2e98b f 1 3600
+addformtoleveledlist 2e98b f 1 3600
+addformtoleveledlist 2e98b f 1 4800
+addformtoleveledlist 2e98b f 1 4800
+addformtoleveledlist 2e98b f 1 4800
+addformtoleveledlist 2e98b f 1 6000
+
+; restaurant upscale 3000
+revertleveledlist 3f8d9
+addformtoleveledlist 3f8d9 f 1 9000
+addformtoleveledlist 3f8d9 f 1 9000
+addformtoleveledlist 3f8d9 f 1 9000
+addformtoleveledlist 3f8d9 f 1 9000
+addformtoleveledlist 3f8d9 f 1 9000
+addformtoleveledlist 3f8d9 f 1 12000
+addformtoleveledlist 3f8d9 f 1 12000
+addformtoleveledlist 3f8d9 f 1 12000
+addformtoleveledlist 3f8d9 f 1 15000
+
+; boutique 3500
+revertleveledlist 3e586
+addformtoleveledlist 3e586 f 1 10500
+addformtoleveledlist 3e586 f 1 11500
+addformtoleveledlist 3e586 f 1 12500
+addformtoleveledlist 3e586 f 1 14500
+addformtoleveledlist 3e586 f 1 15500
+addformtoleveledlist 3e586 f 1 16000
+addformtoleveledlist 3e586 f 1 17000
+addformtoleveledlist 3e586 f 1 18000
+addformtoleveledlist 3e586 f 1 19500
+
+; convenience store 1500
+revertleveledlist 3e57b
+addformtoleveledlist 3e57b f 1 4500
+addformtoleveledlist 3e57b f 1 4500
+addformtoleveledlist 3e57b f 1 4500
+addformtoleveledlist 3e57b f 1 4500
+addformtoleveledlist 3e57b f 1 4500
+addformtoleveledlist 3e57b f 1 6000
+addformtoleveledlist 3e57b f 1 6000
+addformtoleveledlist 3e57b f 1 6000
+addformtoleveledlist 3e57b f 1 7500
+
+; franchise store 2500
+revertleveledlist 4105
+addformtoleveledlist 4105 f 1 7500
+addformtoleveledlist 4105 f 1 7500
+addformtoleveledlist 4105 f 1 7500
+addformtoleveledlist 4105 f 1 7500
+addformtoleveledlist 4105 f 1 7500
+addformtoleveledlist 4105 f 1 10000
+addformtoleveledlist 4105 f 1 10000
+addformtoleveledlist 4105 f 1 10000
+addformtoleveledlist 4105 f 1 12500
+
+; general/outfitter 5000
+revertleveledlist 3e599
+addformtoleveledlist 3e599 f 1 15000
+addformtoleveledlist 3e599 f 1 15000
+addformtoleveledlist 3e599 f 1 20000
+addformtoleveledlist 3e599 f 1 20000
+addformtoleveledlist 3e599 f 1 25000
+addformtoleveledlist 3e599 f 1 25000
+addformtoleveledlist 3e599 f 1 30000
+addformtoleveledlist 3e599 f 1 30000
+addformtoleveledlist 3e599 f 1 35000
+
+; radiant poor 1350
+revertleveledlist 1c8e5e
+addformtoleveledlist 1c8e5e f 1 4050
+addformtoleveledlist 1c8e5e f 1 4050
+addformtoleveledlist 1c8e5e f 1 4050
+addformtoleveledlist 1c8e5e f 1 4050
+addformtoleveledlist 1c8e5e f 1 4050
+addformtoleveledlist 1c8e5e f 1 5400
+addformtoleveledlist 1c8e5e f 1 5400
+addformtoleveledlist 1c8e5e f 1 5400
+addformtoleveledlist 1c8e5e f 1 6750
+
+; radiant wealthy 2600
+revertleveledlist 1c8e5f
+addformtoleveledlist 1c8e5f f 1 7800
+addformtoleveledlist 1c8e5f f 1 7900
+addformtoleveledlist 1c8e5f f 1 7950
+addformtoleveledlist 1c8e5f f 1 8850
+addformtoleveledlist 1c8e5f f 1 9800
+addformtoleveledlist 1c8e5f f 1 10400
+addformtoleveledlist 1c8e5f f 1 10950
+addformtoleveledlist 1c8e5f f 1 11400
+addformtoleveledlist 1c8e5f f 1 13000
+
+; small business 1350
+revertleveledlist 3e594
+addformtoleveledlist 3e594 f 1 4150
+addformtoleveledlist 3e594 f 1 4260
+addformtoleveledlist 3e594 f 1 4370
+addformtoleveledlist 3e594 f 1 4480
+addformtoleveledlist 3e594 f 1 4590
+addformtoleveledlist 3e594 f 1 5400
+addformtoleveledlist 3e594 f 1 6400
+addformtoleveledlist 3e594 f 1 7400
+addformtoleveledlist 3e594 f 1 8750
+
+; trade authority 11000
+revertleveledlist 3e58d
+addformtoleveledlist 3e58d f 1 27500
+
+; weapons dealer commercial 12500
+revertleveledlist 2e95e
+addformtoleveledlist 2e95e f 1 37500
+addformtoleveledlist 2e95e f 1 37500
+addformtoleveledlist 2e95e f 1 37500
+addformtoleveledlist 2e95e f 1 42500
+addformtoleveledlist 2e95e f 1 47500
+addformtoleveledlist 2e95e f 1 50000
+addformtoleveledlist 2e95e f 1 52000
+addformtoleveledlist 2e95e f 1 55000
+addformtoleveledlist 2e95e f 1 62500
+
+; weapons dealer small 4500
+revertleveledlist 3f8d8
+addformtoleveledlist 3f8d8 f 1 13500
+addformtoleveledlist 3f8d8 f 1 13500
+addformtoleveledlist 3f8d8 f 1 13500
+addformtoleveledlist 3f8d8 f 1 14500
+addformtoleveledlist 3f8d8 f 1 16500
+addformtoleveledlist 3f8d8 f 1 18000
+addformtoleveledlist 3f8d8 f 1 19000
+addformtoleveledlist 3f8d8 f 1 20000
+addformtoleveledlist 3f8d8 f 1 22500
