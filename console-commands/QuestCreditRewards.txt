@@ -1,0 +1,20 @@
+
+
+; CreditsRewardFactionQuestLarge (default: 12000) --> Large Faction Quests should pay a good chunk.
+set 0023DF36 to 28000
+; CreditsRewardFactionQuestMedium (default: 10000) --> Medium Faction Quests should pay a decent chunk.
+set 0023DF3A to 17500
+; CreditsRewardMiscQuestLarge (default: 6000) --> Large Misc Quests should pay a decent chunk.
+set 0023DF30 to 15000
+ CreditsRewardMiscQuestMedium (default: 5000) --> Medium Misc Quests should pay an okay amount.
+set 0023DF38 to 8000
+; CreditsRewardRadiantQuestLarge (default: 3700)  --> Large Radiant Quests should pay a good chunk.
+set 0023DF2F to 25000
+; CreditsRewardRadiantQuestSmall (default: 2500) --> Small Radiant Quests should pay a decent chunk.
+set 0023DF2E to 10000
+; CreditsRewardSettlementQuestSmall (default: 2500) --> Slight bump. Need feedback.
+set 0023DF2C to 3750
+; CreditsRewardSettlementQuestLarge (default: 3700) --> Slight bump. Need feedback.
+set 0023DF2D to 6000
+; CF08_CreditsReward_KryxsLegacy (default: 250000) --> From how HUGE the vault was & how much it is hyped up, the reward was lackluster IMO.
+set 00304939 to 1750000
