@@ -13,11 +13,11 @@ SetGS fCookingExpMax 32
 
 ; Muzzle Mods 1 gave ~200XP with 5/150/1250
 ; fResearchExpMult = 0.1
-SetGS fResearchExpMult 5
+SetGS fResearchExpMult 9
 ; fResearchExpBase = 1
-SetGS fResearchExpBase 150
+SetGS fResearchExpBase 250
 ; fResearchExpMax = 200
-SetGS fResearchExpMax 1250
+SetGS fResearchExpMax 1500
 
 ; Adaptive Frame = 8 XP @ 0.05 / 3 / 6 / 36
 ; fWorkbenchExperienceMult = 0.01
