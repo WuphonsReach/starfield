@@ -30,8 +30,8 @@
 - If an outpost produces something and has an outbound cargo link pad configured, include the shippable resource in the outpost name.  I like to use `[Fe Ni]` for intra-system cargo links and `<Fe Ni>` for inter-system cargo linked resources.
 - After placing the Outpost Beacon, takeoff in your ship to orbit and then land at the beacon.  Your ship will end up 200-500m away and it may make you reconsider your beacon placement.
 - If you build your outpost over 500m (750m?) away from any landing posts and also place down the full-sized landing pad; then your ship might start landing at the outpost instead of further away.
-- You will need around 500-1000 units of cargo mass in order to setup an outpost. Around 1500 cargo capacity is a comfortable level for the early game.
-
+- You will need around 500-1000 units of cargo mass in order to setup an outpost. Around 1500 cargo capacity is a comfortable level for the early game.  The Frontier can be expanded to about 1200-1500 capacity once you are able to upgrade the engines to compsenate for the additional mass.
+- One of the major quest chains on Akila also gives a ship with a decent amount of cargo.
 
 ## Cargo Link Strategy
 
