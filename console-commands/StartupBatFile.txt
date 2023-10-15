@@ -76,6 +76,43 @@ setgs fSneakRunningmult 1.8
 ; Vanilla Setting: iCrimeStealDontCareValue 20
 SetGS iCrimeStealDontCareValue 250
 
+; ===== SHIP COMBAT =====
+
+; Default FOV is 90.0
+SetGS "fFlightCameraFOV:FlightCamera" 90.000
+
+; How far the camera will be from your ship
+; default for fFlightCameraOffsetBaseY is -5.780
+SetGS "fFlightCameraOffsetBaseY:FlightCamera" -25.00
+
+; How far down the screen your ship will appear
+; default=5.110
+SetGS "fFlightCameraOffsetBaseZ:FlightCamera" 10
+
+;  Additional leeway for x-axis camera movement based on speed (pushes camera left/right)
+; Default is -8/8
+SetGS "fFlightCameraSpeedOffsetMinX:FlightCamera" -12
+SetGS "fFlightCameraSpeedOffsetMaxX:FlightCamera" 12
+
+; Additional leeway for y-axis camera movement based on speed (brings camera closer/farther)
+; Default is -16/8
+SetGS "fFlightCameraSpeedOffsetMinY:FlightCamera" -24
+SetGS "fFlightCameraSpeedOffsetMaxY:FlightCamera" 12
+
+; Additional leeway for z-axis camera movement based on speed (pushes camera up/down)
+; Default is -8/2
+SetGS "fFlightCameraSpeedOffsetMinZ:FlightCamera" -12
+SetGS "fFlightCameraSpeedOffsetMaxZ:FlightCamera" 6
+
+; default=1.500
+setini "fDefaultShipAutoVanityZoomScale:Camera" 4.500
+
+; -Distance camera will be when ship has landed
+; default=38.000 (doesn't seem to make much difference higher than 70ish)
+SetGS "fFlightCameraOffsetMaxLandedDistance:FlightCamera" 70
+; default=38.000
+SetGS "fFlightCameraOffsetMaxLandingHeightOffset:FlightCamera" 60.000
+
 ; ===== COMBAT =====
 
 ; 5.715 - will react to dead bodies much farther away
