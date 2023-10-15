@@ -33,10 +33,10 @@ SetGS iXPRewardDiscoverMapMarker 100
 SetGS iXPRewardDiscoverSecretArea 300
 
 ; Vanilla is 5/10/15/20 XP per difficulty level
-SetGS fLockpickXPRewardEasy 30
-SetGS fLockpickXPRewardAverage 60
-SetGS fLockpickXPRewardHard 180
-SetGS fLockpickXPRewardVeryHard 360
+SetGS fLockpickXPRewardEasy 45
+SetGS fLockpickXPRewardAverage 90
+SetGS fLockpickXPRewardHard 200
+SetGS fLockpickXPRewardVeryHard 400
 
 ; fXPStart (vanilla = 200): the starting XP required for each level
 ; fXPBase (vanilla = 75): the base amount XP required increases by for each new level past 1 (eg, level 4 = 75*3)
