@@ -1,5 +1,9 @@
 ; ===== XP =====
 
+; No XP Kill Steal Fix-1018-1-0-0-1694001137
+; 1% = 0.001 (or is it 0.1%?)
+setgs fXPDeathRewardHealthThreshold 0.001
+
 ; 2.5x xp-604-1-0-1693787237
 ; the vanilla value is 1, it's a multiplier
 setgs fXPModBase 1
@@ -219,10 +223,6 @@ setgs fGunShellLifetime 600
 setgs iDebrisMaxCount 500
 
 ; ===== GAMEPLAY =====
-
-; No XP Kill Steal Fix-1018-1-0-0-1694001137
-; 1% = 0.001 (or is it 0.1%?)
-setgs fXPDeathRewardHealthThreshold 0.001
 
 ; Days that NPCs stay angry for commiting a crime (vanilla 3)
 setgs iAINumberDaysToStayAngryforCrime 14
