@@ -29,8 +29,8 @@ SetGS fWorkbenchExperienceMin 7
 ; fWorkbenchExperienceMax = 20
 SetGS fWorkbenchExperienceMax 40
 
-SetGS iXPRewardDiscoverMapMarker 90
-SetGS iXPRewardDiscoverSecretArea 200
+SetGS iXPRewardDiscoverMapMarker 100
+SetGS iXPRewardDiscoverSecretArea 300
 
 ; Vanilla is 5/10/15/20 XP per difficulty level
 SetGS fLockpickXPRewardEasy 30
