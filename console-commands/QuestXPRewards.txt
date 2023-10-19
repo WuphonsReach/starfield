@@ -1,6 +1,0 @@
-; StarbornPuzzleXP (Vanilla EXP Reward is 200)  - You can put BELOW any number you want! I have put 500 EXP, you can change it!
-Set 00246AD7 to 900
-
-; PlanetTraitXPReward Vanilla game gives only 100 EXP. You can change the number below to suit your liking!
-; This will give you 500 exp every time you scan a planet trait.
-Set 00245AB9 to 500
